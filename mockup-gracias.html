@@ -8,8 +8,7 @@ body{font-family:"Calibri","Carlito","Segoe UI",system-ui,sans-serif;color:var(-
 h1,h2,h3,.head{font-family:"Trebuchet MS","Segoe UI",Tahoma,sans-serif}
 .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
 .note{background:var(--gold);color:var(--navy);text-align:center;font-weight:700;padding:8px;font-size:.9rem}
-header.top{text-align:center;padding:20px 0;border-bottom:1px solid var(--line)}
-header.top img{height:54px}
+header.top{text-align:center;padding:20px 0;border-bottom:1px solid var(--line)}.top img{height:54px}
 .bar{background:var(--line);height:30px}.bar .fill{background:var(--blue);height:100%;width:100%;display:flex;align-items:center;color:#fff;font-size:.8rem;font-weight:700;padding-left:16px}
 .hero{background:var(--soft);text-align:center;padding:54px 0 40px}
 .eyebrow{color:var(--gold);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:.8rem}
@@ -17,90 +16,61 @@ header.top img{height:54px}
 .hero p{color:var(--gray);font-size:1.15rem;max-width:620px;margin:0 auto 26px}
 .btn{display:inline-block;background:var(--gold);color:var(--navy);font-weight:800;padding:18px 40px;border-radius:10px;text-decoration:none;font-size:1.1rem;box-shadow:0 8px 24px rgba(212,160,23,.4)}
 .video{max-width:720px;margin:36px auto 0;aspect-ratio:16/9;background:var(--navy);border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;border:2px dashed var(--blue)}
-.play{width:74px;height:74px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
-.play:after{content:"";border-left:24px solid var(--navy);border-top:15px solid transparent;border-bottom:15px solid transparent;margin-left:6px}
+.play{width:74px;height:74px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;margin-bottom:14px}.play:after{content:"";border-left:24px solid var(--navy);border-top:15px solid transparent;border-bottom:15px solid transparent;margin-left:6px}
+.urgstrip{background:var(--gold);color:var(--navy);text-align:center;font-weight:800;padding:12px;font-size:1.05rem}
 .offer{background:linear-gradient(135deg,var(--navy),var(--navy-deep));color:#fff;padding:60px 0}
 .offer .grid{display:grid;grid-template-columns:1fr 1.3fr;gap:34px;align-items:center}
 @media(max-width:780px){.offer .grid{grid-template-columns:1fr;text-align:center}}
 .offer h2{font-size:clamp(1.6rem,4vw,2.3rem);margin:8px 0 10px;line-height:1.15}
 .offer .sub{color:#CBD6E8;font-size:1.08rem;margin-bottom:18px}
-.offer ul{list-style:none;display:grid;gap:10px;margin-bottom:8px;text-align:left}
-.offer li{padding-left:30px;position:relative;color:#E8EDF5}
-.offer li:before{content:"\2713";position:absolute;left:0;color:var(--gold);font-weight:800}
+.offer ul{list-style:none;display:grid;gap:10px;text-align:left}.offer li{padding-left:30px;position:relative;color:#E8EDF5}.offer li:before{content:"\2713";position:absolute;left:0;color:var(--gold);font-weight:800}
 .offer img{width:100%;max-width:340px;filter:drop-shadow(0 20px 40px rgba(0,0,0,.45))}
-.urgstrip{background:var(--gold);color:var(--navy);text-align:center;font-weight:800;padding:12px;font-size:1.05rem;letter-spacing:.3px}
 .pricebox{background:rgba(255,255,255,.06);border:2px solid var(--gold);border-radius:16px;padding:22px;margin:20px 0;text-align:center}
-.pricebox .lbl{color:#9FB0C9;font-size:.95rem}
-.pricebox .anchor{color:#9FB0C9;font-size:1.15rem}
-.pricebox .anchor s{opacity:.85}
-.pricebox .now{margin-top:6px;font-size:1.1rem;color:#fff}
-.pricebox .now b{display:block;color:var(--gold);font-size:3rem;font-family:"Trebuchet MS",sans-serif;line-height:1}
-.pricebox .save{display:inline-block;margin-top:10px;background:#1FA463;color:#fff;font-weight:800;padding:4px 14px;border-radius:999px;font-size:.9rem}
-.cupos{color:#FFD98A;font-weight:700;margin-top:12px;font-size:.95rem}
-footer{background:var(--navy-deep);color:#9FB0C9;text-align:center;padding:34px 0;font-size:.85rem}
-footer .word{color:#fff;font-weight:800;font-size:1.1rem;letter-spacing:1px;font-family:"Trebuchet MS",sans-serif}
-footer a{color:var(--blue);text-decoration:none}
+.pricebox .anchor{color:#9FB0C9;font-size:1.15rem}.pricebox .now{margin-top:6px;font-size:1.1rem;color:#fff}.pricebox .now b{display:block;color:var(--gold);font-size:3rem;font-family:"Trebuchet MS",sans-serif;line-height:1}
+.pricebox .save{display:inline-block;margin-top:10px;background:#1FA463;color:#fff;font-weight:800;padding:4px 14px;border-radius:999px;font-size:.9rem}.pricebox .cupos{color:#FFD98A;font-weight:700;margin-top:12px;font-size:.95rem}
+.tem{padding:64px 0;background:var(--soft)}
+.stats{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 26px;margin:16px 0 30px;color:var(--navy);font-weight:700}
+.stats span:before{content:"\25C6";color:var(--gold);margin-right:8px}
+.mod{display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px}
+.mod .num{background:var(--navy);color:#fff;font-weight:800;font-family:"Trebuchet MS",sans-serif;min-width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center}
+.mod h3{color:var(--navy);font-size:1.08rem}.mod p{color:var(--gray);font-size:.97rem}
+.life{max-width:820px;margin:26px auto 0;background:var(--navy);color:#fff;border-radius:14px;padding:24px;text-align:center;border:1px solid var(--gold)}
+.life strong{color:var(--gold);font-family:"Trebuchet MS",sans-serif;font-size:1.2rem}.life p{color:#CBD6E8;margin-top:10px;max-width:640px;margin-left:auto;margin-right:auto}
+.para{max-width:820px;margin:30px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:680px){.para{grid-template-columns:1fr}}
+.para .c{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px}.para h3{color:var(--navy);margin-bottom:6px}.para p{color:var(--gray)}
+footer{background:var(--navy-deep);color:#9FB0C9;text-align:center;padding:34px 0;font-size:.85rem}.word{color:#fff;font-weight:800;font-size:1.1rem;letter-spacing:1px;font-family:"Trebuchet MS",sans-serif}footer a{color:var(--blue);text-decoration:none}
 </style></head><body>
 <div class="note">MOCKUP - vista previa del diseño</div>
 <header class="top"><img src="assets/logo-cadencia.png" alt="Cadencia de Reservas"></header>
 <div class="bar"><div class="fill">100% Completado</div></div>
+<section class="hero"><div class="wrap"><div class="eyebrow">Tu herramienta está lista</div><h1>¡Listo! Tu Herramienta de Estudio de Mercado está aquí</h1><p>Descárgala abajo. También te la enviamos por correo y WhatsApp.</p><a class="btn" href="#">DESCARGAR LA HERRAMIENTA</a><div class="video"><div class="play"></div><strong>Tu video aquí</strong><small>2-3 min: cómo usarla + el siguiente paso</small></div></div></section>
+<div class="urgstrip">El Curso Cadencia de Reservas abre el 1 de julio. Preventa hoy, cupos limitados.</div>
+<section class="offer"><div class="wrap"><div class="grid"><div style="text-align:center"><img src="assets/power-stance.png" alt="Juan Pablo Téllez"></div><div><div class="eyebrow">Oferta de preventa</div><h2>Esto es solo una probada de Cadencia de Reservas</h2><p class="sub">La herramienta te dice QUÉ. El método te enseña el CÓMO: posicionar tu propiedad y llenar tu calendario sin bajar precios.</p><ul><li>15 módulos, 82 lecciones, más de 11 horas</li><li>22 recursos descargables (Excel, checklists, plantillas)</li><li>Casos reales: de $3,000 a $9,300 al mes sin remodelar</li><li>Webinars en vivo conmigo + comunidad premium en Skool</li></ul><div class="pricebox"><div class="anchor">Precio de lanzamiento (1 de julio): <s>$998 USD</s></div><div class="now">Solo en preventa, hoy:<b>$249 USD</b></div><div class="save">Ahorras $749</div><div class="cupos">Cupos limitados de preventa</div></div><a class="btn" href="#">QUIERO EL CURSO EN PREVENTA ($249)</a></div></div></div></section>
 
-<section class="hero"><div class="wrap">
-  <div class="eyebrow">Tu herramienta está lista</div>
-  <h1>¡Listo! Tu Herramienta de Estudio de Mercado está aquí</h1>
-  <p>Descárgala abajo. También te la enviamos por correo y WhatsApp.</p>
-  <a class="btn" href="#">DESCARGAR LA HERRAMIENTA</a>
-  <div class="video"><div class="play"></div><strong>Tu video aquí</strong><small>2-3 min: cómo usarla + el siguiente paso</small></div>
+<section class="tem"><div class="wrap">
+<div class="eyebrow" style="text-align:center">Temario del curso</div>
+<h2 style="text-align:center;color:var(--navy);font-size:clamp(1.6rem,4vw,2.3rem);margin:8px 0 4px">El método completo, módulo por módulo</h2>
+<div class="stats"><span>15 módulos</span><span>82 lecciones</span><span>+11 horas</span><span>22 recursos</span><span>acceso tipo menú</span></div>
+<div class="mod"><span class="num">0</span><div><h3>Bienvenida y fundamentos</h3><p>La mentalidad que cambia todo antes de tocar una sola técnica.</p></div></div>
+<div class="mod"><span class="num">1</span><div><h3>El algoritmo y el marketplace</h3><p>El algoritmo no es tu enemigo, es tu cliente más importante.</p></div></div>
+<div class="mod"><span class="num">2</span><div><h3>Estudio de mercado y tu categoría real</h3><p>Entiende tu propiedad antes de invertir un peso.</p></div></div>
+<div class="mod"><span class="num">3</span><div><h3>Tu huésped de valor</h3><p>Define para quién vendes; todo lo demás se ajusta a eso.</p></div></div>
+<div class="mod"><span class="num">4</span><div><h3>Diseño y amueblado</h3><p>Construye el espacio que después se fotografía solo.</p></div></div>
+<div class="mod"><span class="num">5</span><div><h3>Fotografía profesional</h3><p>La inversión más importante: aquí se gana o se pierde el click.</p></div></div>
+<div class="mod"><span class="num">6</span><div><h3>Copywriting: título y descripción</h3><p>Palabras que venden, no que decoran.</p></div></div>
+<div class="mod"><span class="num">7</span><div><h3>Creación y optimización del listado</h3><p>Publica bien en las 3 OTAs, sin un campo vacío.</p></div></div>
+<div class="mod"><span class="num">8</span><div><h3>Estrategia de precio y cadencia</h3><p>El corazón del método: precio con intención, no con miedo.</p></div></div>
+<div class="mod"><span class="num">9</span><div><h3>Atención al huésped y experiencia sin fricción</h3><p>Menos fricción, mejores experiencias, y protégete.</p></div></div>
+<div class="mod"><span class="num">10</span><div><h3>Reseñas y reputación</h3><p>Convierte cada estancia en reputación acumulativa.</p></div></div>
+<div class="mod"><span class="num">11</span><div><h3>Operación: protocolos, limpieza, protección y soporte</h3><p>Que no dependa de tu memoria ni de tu suerte.</p></div></div>
+<div class="mod"><span class="num">12</span><div><h3>Automatización y stack tecnológico</h3><p>Compra tiempo y consistencia con las herramientas correctas.</p></div></div>
+<div class="mod"><span class="num">13</span><div><h3>Crecimiento de cartera</h3><p>De una propiedad a varias sin que el negocio te coma.</p></div></div>
+<div class="mod"><span class="num">14</span><div><h3>Diagnóstico, métricas y plan de acción</h3><p>Convierte todo el curso en un plan concreto.</p></div></div>
+<div class="life"><strong>Acceso de por vida + todas las actualizaciones</strong><p>El temario evoluciona y mejora con el tiempo. Al entrar hoy obtienes acceso de por vida al Curso Cadencia de Reservas y a cada actualización futura, sin volver a pagar.</p></div>
+<div class="para"><div class="c"><h3>Anfitriones nuevos</h3><p>Por comprar, equipar o publicar su primera propiedad. Empieza bien desde el día uno.</p></div><div class="c"><h3>Anfitriones activos</h3><p>Ya operas pero tu propiedad no se reserva como debería y bajas precios por miedo.</p></div></div>
+<p style="text-align:center;color:var(--gray);margin-top:18px">Aplica igual si operas tu propia propiedad o si administras la de alguien más.</p>
+<div style="text-align:center;margin-top:28px"><a class="btn" href="#">QUIERO EL CURSO EN PREVENTA ($249)</a></div>
 </div></section>
-
-<div class="urgstrip">El Curso Cadencia de Reservas abre el 1 de julio. Preventa abierta hoy, cupos limitados.</div>
-
-<section class="offer"><div class="wrap"><div class="grid">
-  <div style="text-align:center"><img src="assets/power-stance.png" alt="Juan Pablo Téllez"></div>
-  <div>
-    <div class="eyebrow">Oferta de preventa</div>
-    <h2>Esto es solo una probada de Cadencia de Reservas</h2>
-    <p class="sub">La herramienta te dice QUÉ. El método te enseña el CÓMO: posicionar tu propiedad y llenar tu calendario sin bajar precios.</p>
-    <ul>
-      <li>El método completo, paso a paso</li>
-      <li>Casos reales: de $3,000 a $9,300 al mes sin remodelar</li>
-      <li>Cómo posicionar tu propiedad sin bajar precios</li>
-      <li>Webinars en vivo conmigo</li>
-      <li>Comunidad premium en Skool</li>
-    </ul>
-    <div class="pricebox">
-      <div class="anchor">Precio de lanzamiento (1 de julio): <s>$998 USD</s></div>
-      <div class="now">Solo en preventa, hoy:<b>$249 USD</b></div>
-      <div class="save">Ahorras $749</div>
-      <div class="cupos">Cupos limitados de preventa</div>
-    </div>
-    <a class="btn" href="#">QUIERO EL CURSO EN PREVENTA ($249)</a>
-  </div>
-</div></div></section>
-
-<section style="padding:60px 0;background:var(--soft)"><div class="wrap">
-  <div class="eyebrow" style="text-align:center">Temario del curso</div>
-  <h2 style="text-align:center;color:var(--navy);font-size:clamp(1.6rem,4vw,2.3rem);margin:8px 0 6px">Lo que vas a aprender, módulo por módulo</h2>
-  <p style="text-align:center;color:var(--gray);max-width:620px;margin:0 auto 30px">BORRADOR basado en tu método. Reemplázalo con tu temario real.</p>
-  <div style="max-width:780px;margin:0 auto;display:grid;gap:14px">
-    <div style="display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px"><span style="background:var(--navy);color:#fff;font-weight:800;font-family:'Trebuchet MS',sans-serif;min-width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center">1</span><div><h3 style="color:var(--navy);font-size:1.12rem">Mentalidad de marketplace</h3><p style="color:var(--gray)">Por qué compites como producto digital, no como hospedaje físico.</p></div></div>
-    <div style="display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px"><span style="background:var(--navy);color:#fff;font-weight:800;font-family:'Trebuchet MS',sans-serif;min-width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center">2</span><div><h3 style="color:var(--navy);font-size:1.12rem">Estudio de mercado y factibilidad</h3><p style="color:var(--gray)">Usa la herramienta a fondo: tu techo real y si tu propiedad es negocio.</p></div></div>
-    <div style="display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px"><span style="background:var(--navy);color:#fff;font-weight:800;font-family:'Trebuchet MS',sans-serif;min-width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center">3</span><div><h3 style="color:var(--navy);font-size:1.12rem">El algoritmo de Airbnb</h3><p style="color:var(--gray)">Cómo lee señales y qué hace que te muestre o te esconda.</p></div></div>
-    <div style="display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px"><span style="background:var(--navy);color:#fff;font-weight:800;font-family:'Trebuchet MS',sans-serif;min-width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center">4</span><div><h3 style="color:var(--navy);font-size:1.12rem">Tu anuncio irresistible (Airbnb, Booking, VRBO)</h3><p style="color:var(--gray)">Foto, título y descripción que convierten en cada plataforma.</p></div></div>
-    <div style="display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px"><span style="background:var(--navy);color:#fff;font-weight:800;font-family:'Trebuchet MS',sans-serif;min-width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center">5</span><div><h3 style="color:var(--navy);font-size:1.12rem">Estrategia de precios</h3><p style="color:var(--gray)">Pricing por horizontes: activa reservas sin regalar tu propiedad.</p></div></div>
-    <div style="display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px"><span style="background:var(--navy);color:#fff;font-weight:800;font-family:'Trebuchet MS',sans-serif;min-width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center">6</span><div><h3 style="color:var(--navy);font-size:1.12rem">Cadencia futura</h3><p style="color:var(--gray)">Llena tu calendario hacia adelante y deja de depender del último minuto.</p></div></div>
-    <div style="display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px"><span style="background:var(--navy);color:#fff;font-weight:800;font-family:'Trebuchet MS',sans-serif;min-width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center">7</span><div><h3 style="color:var(--navy);font-size:1.12rem">Experiencia sin fricción y reviews</h3><p style="color:var(--gray)">Convierte huéspedes en reputación que sube tu tarifa.</p></div></div>
-    <div style="display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px"><span style="background:var(--navy);color:#fff;font-weight:800;font-family:'Trebuchet MS',sans-serif;min-width:42px;height:42px;border-radius:9px;display:flex;align-items:center;justify-content:center">8</span><div><h3 style="color:var(--navy);font-size:1.12rem">Diagnóstico y plan de acción</h3><p style="color:var(--gray)">Tu propiedad evaluada paso a paso, con un plan concreto para ejecutar.</p></div></div>
-  </div>
-  <div style="max-width:780px;margin:26px auto 0;background:var(--navy);color:#fff;border-radius:14px;padding:24px;text-align:center;border:1px solid var(--gold)"><strong style="color:var(--gold);font-family:'Trebuchet MS',sans-serif;font-size:1.2rem">Acceso de por vida + todas las actualizaciones</strong><p style="color:#CBD6E8;margin-top:10px;max-width:620px;margin-left:auto;margin-right:auto">El temario evoluciona y mejora con el tiempo. Al entrar hoy obtienes acceso de por vida al Curso Cadencia de Reservas y a cada actualización futura, sin volver a pagar.</p></div>
-
-<div style="text-align:center;margin-top:30px"><a class="btn" href="#">QUIERO EL CURSO EN PREVENTA ($249)</a></div>
-</div></section>
-
-<footer><div class="wrap">
-  <div class="word">CADENCIA DE RESERVAS</div>
-  <p style="margin:10px 0">Encuentra el ritmo de tus reservas.</p>
-  <p>Southlife Partners LLC - Todos los derechos reservados</p>
-  <p style="margin-top:8px"><a href="#">Política de privacidad</a> | <a href="#">Política de reembolsos</a></p>
-</div></footer>
+<footer><div class="wrap"><div class="word">CADENCIA DE RESERVAS</div><p style="margin:10px 0">Encuentra el ritmo de tus reservas.</p><p>Southlife Partners LLC - Todos los derechos reservados</p><p style="margin-top:8px"><a href="#">Política de privacidad</a> | <a href="#">Política de reembolsos</a></p></div></footer>
 </body></html>
