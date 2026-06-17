@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thumbnail Stripe - Curso Cadencia</title>
+<style>
+:root{--navy:#194167;--navy2:#11304C;--blue:#458BBD;--gold:#D4A017;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#222;display:flex;flex-direction:column;align-items:center;gap:18px;padding:24px;font-family:"Trebuchet MS",sans-serif}
+.thumb{width:1080px;height:1080px;transform-origin:top center;background:radial-gradient(120% 120% at 80% 0%,#21507e 0%,var(--navy) 45%,var(--navy2) 100%);position:relative;overflow:hidden;color:#fff}
+/* acentos */
+.thumb:before{content:"";position:absolute;top:-120px;left:-120px;width:360px;height:360px;border:26px solid rgba(212,160,23,.25);border-radius:50%}
+.bargold{position:absolute;left:80px;top:300px;width:120px;height:12px;background:var(--gold);border-radius:6px}
+.txt{position:absolute;top:90px;left:80px;right:80px}
+.eyebrow{color:var(--gold);font-weight:800;letter-spacing:6px;font-size:34px}
+.title{font-size:118px;line-height:.98;font-weight:800;margin-top:26px;letter-spacing:-1px}
+.title .tm{font-size:42px;vertical-align:super}
+.tag{font-family:Calibri,system-ui,sans-serif;color:#CBD6E8;font-size:40px;margin-top:28px;max-width:620px}
+.meta{position:absolute;bottom:70px;left:80px;font-family:Calibri,system-ui,sans-serif;font-weight:700;font-size:34px;color:#fff}
+.meta b{color:var(--gold)}
+.jp{position:absolute;right:-40px;bottom:0;height:760px;filter:drop-shadow(-10px 0 40px rgba(0,0,0,.5))}
+.cap{color:#aaa;font-family:system-ui;font-size:13px}
+.s50{transform:scale(.5)}
+</style></head><body>
+<div class="cap">Vista previa (tamaño real 1080x1080). Para Stripe: haz screenshot del cuadro de abajo.</div>
+<div class="thumb s50">
+  <div class="bargold"></div>
+  <div class="txt">
+    <div class="eyebrow">CURSO ONLINE</div>
+    <div class="title">Cadencia<br>de Reservas<span class="tm">&trade;</span></div>
+    <div class="tag">El método para llenar tu calendario sin bajar precios.</div>
+  </div>
+  <div class="meta">15 módulos &middot; <b>Acceso de por vida</b></div>
+  <img class="jp" src="assets/power-stance.png" alt="JP">
+</div>
+</body></html>
